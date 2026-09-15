@@ -8,11 +8,11 @@ Bu klasörde `python3 -m http.server 8770` çalıştır ve `http://localhost:877
 
 ## GitHub Pages ile yayınlama
 
-1. GitHub'da `tint-app` gibi yeni bir repository oluştur. Ücretsiz GitHub Pages kullanımı için public seç.
+1. GitHub'da public bir repository oluştur. Bu site `Muhammetkocaman/tint-website` repository'sinde yayınlanıyor.
 2. **Yalnızca bu klasörün içeriğini** repository köküne yükle. Swift uygulamasını, anahtarları veya üst klasörü ekleme.
 3. Repository → Settings → Pages → Source: **Deploy from a branch**.
 4. Branch: **main**, folder: **/ (root)** seç ve Save'e bas.
-5. Dağıtım tamamlandığında Pages bölümünde verilen adresi aç. `tint-app` adı kullanılırsa adres `https://Muhammetkocaman.github.io/tint-app/` olur. Bu adres henüz oluşturulmuş/yayınlanmış değildir.
+5. Dağıtım tamamlandığında Pages bölümünde verilen adresi aç: `https://Muhammetkocaman.github.io/tint-website/`.
 
 Sayfalar relative bağlantılar kullanır; repository adının değişmesi bağlantıları bozmaz. Destek adresi `/support.html`, gizlilik adresi `/privacy.html`, kullanım koşulları `/terms.html` dosyalarıdır; App Store Connect için bunları sitenin gerçek yayın URL'sinin sonuna ekle.
 
